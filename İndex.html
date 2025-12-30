@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOÇ.NET — Öğrenme ve Okul Platformu</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="w-full border-b bg-white">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <h1 class="text-2xl font-bold">KOÇNET</h1>
+        <nav class="flex gap-4 text-sm">
+          <a href="#ozellikler" class="hover:underline">Özellikler</a>
+          <a href="#canli-ders" class="hover:underline">Canlı Ders</a>
+          <a href="#panel" class="hover:underline">Öğrenci Paneli</a>
+          <a href="#iletisim" class="hover:underline">İletişim</a>
+        </nav>
+        <button class="px-4 py-2 rounded-2xl shadow bg-blue-600 text-white text-sm">Giriş Yap</button>
+      </div>
+    </header><!-- Hero -->
+<section class="max-w-6xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-10 items-center">
+  <div>
+    <h2 class="text-3xl md:text-4xl font-bold leading-tight">
+      KOÇ.NET — Gerçek Hayattaki Okul Projesi için
+      <span class="text-blue-600">Akıllı Dijital Platform</span>
+    </h2>
+    <p class="mt-4 text-base">
+      Ders yönetimi, yoklama, ödev, sınav, rehberlik, canlı ders ve daha fazlası.
+      Okul — Öğretmen — Öğrenci — Veli hepsi tek ekosistemde.
+    </p>
+    <div class="mt-6 flex gap-3">
+      <button class="px-5 py-3 rounded-2xl shadow bg-blue-600 text-white text-sm">Projeyi Başlat</button>
+      <button class="px-5 py-3 rounded-2xl shadow bg-white text-sm border">Tanıtım Dokümanı</button>
+    </div>
+  </div>
+  <div class="bg-white rounded-2xl shadow p-6">
+    <p class="font-semibold mb-2">Proje Kontrol Paneli (Örnek Tasarım)</p>
+    <div class="grid grid-cols-2 gap-3">
+      <div class="rounded-xl bg-gray-100 p-4">
+        <p class="text-sm font-medium">Öğrenci Sayısı</p>
+        <p class="text-2xl font-bold">864</p>
+      </div>
+      <div class="rounded-xl bg-gray-100 p-4">
+        <p class="text-sm font-medium">Ders Modülü</p>
+        <p class="text-2xl font-bold">Aktif</p>
+      </div>
+      <div class="rounded-xl bg-gray-100 p-4">
+        <p class="text-sm font-medium">Canlı Ders</p>
+        <p class="text-2xl font-bold">Hazır</p>
+      </div>
+      <div class="rounded-xl bg-gray-100 p-4">
+        <p class="text-sm font-medium">Bildirimler</p>
+        <p class="text-2xl font-bold">12</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section id="ozellikler" class="bg-white border-t">
+  <div class="max-w-6xl mx-auto px-4 py-14">
+    <h3 class="text-2xl font-bold mb-6">Temel Modüller</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl shadow p-6">
+        <h4 class="font-semibold mb-2">Ders & Ödev Yönetimi</h4>
+        <p class="text-sm">Konu, kazanım, ödev yükleme ve teslim takip ekranları.</p>
+      </div>
+      <div class="rounded-2xl shadow p-6">
+        <h4 class="font-semibold mb-2">Sınav & Optik</h4>
+        <p class="text-sm">Sınav ekleme, puanlama, sınıf analiz kartları.</p>
+      </div>
+      <div class="rounded-2xl shadow p-6">
+        <h4 class="font-semibold mb-2">Veli Bilgilendirme</h4>
+        <p class="text-sm">Ders devamsızlık ve başarı raporları.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Live Class Section -->
+<section id="canli-ders" class="bg-gray-50 border-t">
+  <div class="max-w-6xl mx-auto px_4 py-14 px-4">
+    <h3 class="text-2xl font-bold mb-6">Canlı Ders Entegrasyonu</h3>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="rounded-2xl shadow bg-white p-6">
+        <h4 class="font-semibold">Zoom</h4>
+        <p class="text-sm mt-1">Ders programından tek tıkla toplantı başlat.</p>
+        <div class="mt-4 rounded-xl bg-gray-100 p-4">
+          <p class="text-xs">Örnek buton</p>
+          <button class="mt-2 px-4 py-2 rounded-2xl shadow bg-blue-600 text-white text-sm">Zoom Dersine Katıl</button>
+        </div>
+      </div>
+      <div class="rounded-2xl shadow bg-white p-6">
+        <h4 class="font-semibold">Microsoft Teams</h4>
+        <p class="text-sm mt-1">Takvimden ders odası oluştur / katıl.</p>
+        <div class="mt-4 rounded-xl bg-gray-100 p-4">
+          <p class="text-xs">Örnek buton</p>
+          <button class="mt-2 px-4 py-2 rounded-2xl shadow bg-blue-600 text-white text-sm">Teams Dersine Katıl</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Student Panel Preview -->
+<section id="panel" class="border-t bg-white">
+  <div class="max-w-6xl mx-auto px-4 py-14">
+    <h3 class="text-2xl font-bold mb-6">Öğrenci Paneli (Arayüz Tasarımı)</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl shadow bg-gray-50 p-6">
+        <p class="text-sm font-medium">Haftalık Ders Programı</p>
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs">
+          <div class="rounded-xl bg-white p-3 shadow">Matematik</div>
+          <div class="rounded-xl bg-white p-3 shadow">Türkçe</div>
+          <div class="rounded-xl bg-white p-3 shadow">Fizik</div>
+          <div class="rounded-xl bg-white p-3 shadow">Biyoloji</div>
+        </div>
+      </div>
+
+      <div class="rounded-2xl shadow bg-gray-50 p-6">
+        <p class="text-sm font-medium">Ödev Takibi</p>
+        <ul class="mt-3 text-xs space-y-2">
+          <li class="rounded-xl bg-white p-3 shadow">Matematik — Son Teslim: Cuma</li>
+          <li class="rounded-xl bg-white p-3 shadow">Fen — Son Teslim: Pazartesi</li>
+        </ul>
+      </div>
+
+      <div class="rounded-2xl shadow bg-gray-50 p-6">
+        <p class="text-sm font-medium">Sınav Sonuç Kartı</p>
+        <div class="mt-3 rounded-xl bg-white p-4 shadow">
+          <p class="text-xs">Türkçe: 82 | Matematik: 78 | Fen: 88</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="iletisim" class="border-t bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+    <p class="text-sm">© KOÇNET Okul Projesi — Tasarım Taslak Arayüz</p>
+    <p class="text-sm">Geri bildirim ve geliştirme istekleri için yazabilirsiniz.</p>
+  </div>
+</footer>
+
+  </body>
+</html>
